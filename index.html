@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>روابطي</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 40px 16px;
+      background: radial-gradient(circle at top, #1b1b1f 0%, #0e0e10 100%);
+      color: #f4f4f6;
+      font-family: system-ui, -apple-system, sans-serif;
+      min-height: 100vh;
+    }
+    .container {
+      max-width: 620px;
+      margin: 0 auto;
+    }
+    .section-title {
+      font-size: 14px;
+      color: #a1a1aa;
+      margin: 24px 0 10px;
+      text-align: right;
+    }
+    .card {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: #17171a;
+      border: 1px solid #27272c;
+      border-radius: 14px;
+      padding: 16px 20px;
+      margin-bottom: 12px;
+      text-decoration: none;
+      color: inherit;
+      transition: transform 0.15s ease, border-color 0.15s ease, background 0.15s ease;
+    }
+    .card:hover {
+      transform: translateY(-2px);
+      border-color: #3f3f46;
+      background: #1e1e23;
+    }
+    .right-part {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+    .icon-badge {
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      background: #27272c;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      font-size: 15px;
+    }
+    .info {
+      text-align: right;
+    }
+    .title {
+      font-size: 16px;
+      font-weight: 700;
+    }
+    .handle {
+      font-size: 13px;
+      color: #9ca3af;
+      margin-top: 2px;
+    }
+    .left-part {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      text-align: left;
+    }
+    .stats-num {
+      font-size: 14px;
+      font-weight: 700;
+    }
+    .stats-label {
+      font-size: 12px;
+      color: #9ca3af;
+    }
+    .arrow {
+      font-size: 18px;
+      color: #9ca3af;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="section-title">منصات البث</div>
+
+    <a class="card" href="https://youtube.com" target="_blank">
+      <div class="right-part">
+        <div class="icon-badge">YT</div>
+        <div class="info">
+          <div class="title">YouTube</div>
+          <div class="handle">@yourchannel</div>
+        </div>
+      </div>
+      <div class="left-part">
+        <div>
+          <div class="stats-num">40.5K</div>
+          <div class="stats-label">followers</div>
+        </div>
+        <div class="arrow">↖</div>
+      </div>
+    </a>
+
+    <a class="card" href="https://kick.com" target="_blank">
+      <div class="right-part">
+        <div class="icon-badge">K</div>
+        <div class="info">
+          <div class="title">Kick</div>
+          <div class="handle">yourkick</div>
+        </div>
+      </div>
+      <div class="left-part">
+        <div class="arrow">↖</div>
+      </div>
+    </a>
+
+    <div class="section-title">روابط أخرى</div>
+
+    <a class="card" href="https://discord.com" target="_blank">
+      <div class="right-part">
+        <div class="icon-badge">DC</div>
+        <div class="info">
+          <div class="title">Discord</div>
+          <div class="handle">Join Server</div>
+        </div>
+      </div>
+      <div class="left-part">
+        <div class="arrow">↖</div>
+      </div>
+    </a>
+  </div>
+</body>
+</html>
